@@ -1,5 +1,5 @@
 # HIKVisionIPCamera
-Get Frame from HIKVision IP Camera (HIKVison SDK requested)
+Get Frame from HIKVision IP Camera (HIKVison SDK required)
 
 # Dependencies
 HIK Viseion SDK; 
