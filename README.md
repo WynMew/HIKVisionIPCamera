@@ -2,7 +2,8 @@
 Get Frame from HIKVision IP Camera (HIKVison SDK requested)
 
 # Dependencies
-HIK Viseion SDK
+HIK Viseion SDK; 
+
 OpenCV (>=2.4.11)
 
 # Installation
