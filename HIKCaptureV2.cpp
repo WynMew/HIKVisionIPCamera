@@ -273,10 +273,10 @@ unsigned __stdcall  HIKCapture::CameraThread(void *param)
 	//登录参数，包括设备地址、登录用户、密码等
 	NET_DVR_USER_LOGIN_INFO struLoginInfo = { 0 };
 	struLoginInfo.bUseAsynLogin = 0; //同步登录方式
-	strcpy_s(struLoginInfo.sDeviceAddress, "10.167.174.126"); //设备IP地址
+	strcpy_s(struLoginInfo.sDeviceAddress, "0.0.0.0"); //设备IP地址
 	struLoginInfo.wPort = 8000; //设备服务端口
 	strcpy_s(struLoginInfo.sUserName, "admin"); //设备登录用户名
-	strcpy_s(struLoginInfo.sPassword, "frdc1234"); //设备登录密码
+	strcpy_s(struLoginInfo.sPassword, "admin"); //设备登录密码
 
 												   //设备信息, 输出参数
 	NET_DVR_DEVICEINFO_V40 struDeviceInfoV40 = { 0 };
